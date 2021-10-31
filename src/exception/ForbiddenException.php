@@ -1,6 +1,6 @@
 <?php
 
-namespace Kasfy\Framework;
+namespace Kasfy\Framework\exception;
 
 /***
     ꗥ 𝕂𝔸𝕊𝔽𝕐 
@@ -8,10 +8,10 @@ namespace Kasfy\Framework;
     ꗥ 𝔸𝕦𝕥𝕙𝕠𝕣: 𝕂𝕒𝕥𝕙𝕖𝕖𝕤𝕜𝕦𝕞𝕒𝕣 𝕊 [𝕙𝕥𝕥𝕡𝕤://𝕜𝕒𝕥𝕙𝕖𝕖𝕤𝕙.𝕛𝕤.𝕠𝕣𝕘]
  ***/
 
-class Server
+use Kasfy\Framework\Application;
+
+class ForbiddenException extends \Exception
 {
-    public function serve($root)
-    {
-        return shell_exec("php -S localhost:4107 " . $root);
-    }
+    protected $message = 'You don\'t have permission to access this page';
+    protected $code = 403;
 }
