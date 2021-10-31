@@ -15,7 +15,13 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"kasfy\\Framework\\": "src/"}
+        "psr-4": {
+            "kasfy\\Framework\\": "src/",
+            "kasfy\\Framework\\db\\": "src/db",
+            "kasfy\\Framework\\exception\\": "src/exception",
+            "kasfy\\Framework\\form\\": "src/form",
+            "kasfy\\Framework\\middlewares\\": "src/middlewares"
+        }
     },
     "require": {}
 }
