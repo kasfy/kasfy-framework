@@ -33,7 +33,7 @@ class Application
     public function __construct($rootDir, $config)
     {
         $this->user = null;
-        $this->userClass = new $config['userClass'];
+        $this->userClass = $config['userClass'];
         self::$ROOT_DIR = $rootDir;
         self::$app = $this;
         $this->request = new Request();
