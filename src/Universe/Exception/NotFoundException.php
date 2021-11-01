@@ -1,5 +1,5 @@
 <?php
-namespace Kasfy\Framework\exception;
+namespace Universe\exception;
 
 /***
     ꗥ 𝕂𝔸𝕊𝔽𝕐 
