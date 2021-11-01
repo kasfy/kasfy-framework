@@ -16,7 +16,8 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "kasfy\\Framework\\": "."
+            "Universe\\": "src/Universe/",
+            "Universe\\Support\\": ["src/Universe/DB/", "src/Universe/Exception/", "src/Universe/Form/", "src/Universe/Middlewares/"]
         }
     },
     "require": {}

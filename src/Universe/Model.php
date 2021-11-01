@@ -1,6 +1,6 @@
 <?php
 
-namespace Kasfy\Framework;
+namespace Universe;
 
 /***
     ꗥ 𝕂𝔸𝕊𝔽𝕐 

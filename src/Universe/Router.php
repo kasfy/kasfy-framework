@@ -1,6 +1,6 @@
 <?php
 
-namespace Kasfy\Framework;
+namespace Universe;
 
 /***
      ꗥ 𝕂𝔸𝕊𝔽𝕐 
@@ -8,7 +8,7 @@ namespace Kasfy\Framework;
      ꗥ 𝔸𝕦𝕥𝕙𝕠𝕣: 𝕂𝕒𝕥𝕙𝕖𝕖𝕤𝕜𝕦𝕞𝕒𝕣 𝕊 [𝕙𝕥𝕥𝕡𝕤://𝕜𝕒𝕥𝕙𝕖𝕖𝕤𝕙.𝕛𝕤.𝕠𝕣𝕘]
  ***/
 
-use Kasfy\Framework\exception\NotFoundException;
+use Universe\Exception\NotFoundException;
 
 class Router
 {

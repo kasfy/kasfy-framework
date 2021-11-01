@@ -1,8 +1,8 @@
 <?php
 
-namespace Kasfy\Framework;
+namespace Universe;
 
-use Kasfy\Framework\middlewares\BaseMiddleware;
+use Universe\Middlewares\BaseMiddleware;
 
 /***
     ꗥ 𝕂𝔸𝕊𝔽𝕐 

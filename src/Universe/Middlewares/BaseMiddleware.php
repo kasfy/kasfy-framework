@@ -1,6 +1,6 @@
 <?php
 
-namespace Kasfy\Framework\middlewares;
+namespace Universe\middlewares;
 
 /***
     ꗥ 𝕂𝔸𝕊𝔽𝕐 
