@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Universe\\Support\\' => array($baseDir . '/src/Universe/DB', $baseDir . '/src/Universe/Exception', $baseDir . '/src/Universe/Form', $baseDir . '/src/Universe/Middlewares'),
+    'Universe\\Support\\' => array($baseDir . '/src/Universe/DB', $baseDir . '/src/Universe/Exception', $baseDir . '/src/Universe/Middlewares'),
     'Universe\\' => array($baseDir . '/src/Universe'),
 );

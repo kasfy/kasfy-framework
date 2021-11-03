@@ -17,7 +17,7 @@
     "autoload": {
         "psr-4": {
             "Universe\\": "src/Universe/",
-            "Universe\\Support\\": ["src/Universe/DB/", "src/Universe/Exception/", "src/Universe/Form/", "src/Universe/Middlewares/"]
+            "Universe\\Support\\": ["src/Universe/DB/", "src/Universe/Exception/", "src/Universe/Middlewares/"]
         }
     },
     "require": {}

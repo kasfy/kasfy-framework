@@ -19,8 +19,7 @@ class ComposerStaticInitbe453e5abe34a801f307a00670101284
         array (
             0 => __DIR__ . '/../..' . '/src/Universe/DB',
             1 => __DIR__ . '/../..' . '/src/Universe/Exception',
-            2 => __DIR__ . '/../..' . '/src/Universe/Form',
-            3 => __DIR__ . '/../..' . '/src/Universe/Middlewares',
+            2 => __DIR__ . '/../..' . '/src/Universe/Middlewares',
         ),
         'Universe\\' => 
         array (

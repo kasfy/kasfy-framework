@@ -22,7 +22,7 @@ class Controller
         $this->layout = $layout;
     }
 
-    public function render($view, $params = []): string
+    public function view($view, $params = []): string
     {
         return Application::$app->router->renderView($view, $params);
     }
