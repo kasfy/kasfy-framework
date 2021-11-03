@@ -37,9 +37,9 @@ class Router
         $method = $this->request->getMethod();
         $url = $this->request->getUrl();
         $callback = $this->routeMap[$method][$url] ?? false;
-        if (!$callback) {
-            throw new NotFoundException();
-        }
+        // if (!$callback) {
+        //     throw new NotFoundException();
+        // }
         if (is_string($callback)) {
             return $this->renderView($callback);
         }
