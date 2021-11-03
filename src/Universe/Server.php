@@ -10,8 +10,8 @@ namespace Universe;
 
 class Server
 {
-    public function serve($root)
+    public function serve($servestring)
     {
-        return shell_exec("php -S localhost:4107 " . $root);
+        return shell_exec("php -S " . $servestring);
     }
 }
