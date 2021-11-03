@@ -1,6 +1,6 @@
 <?php
 
-namespace Universe\exception;
+namespace Universe\Exception;
 
 /***
     ꗥ 𝕂𝔸𝕊𝔽𝕐 
